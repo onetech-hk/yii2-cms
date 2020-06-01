@@ -1,0 +1,28 @@
+{
+    "name": "onetech-hk/yii2-cms",
+    "description": "A simple CMS based on Yii2.",
+    "type": "yii2-extension",
+    "keywords": ["onetech", "onetechhk", "yii2", "cms"],
+    "homepage": "http://onetech-hk.com/",
+    "authors": [
+        {
+            "name": "Ken Wong",
+            "email": "ken717w@gmail.com"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "^2.0"
+    },
+    "minimum-stability": "stable",
+    "autoload": {
+        "psr-4": {
+            "onetech\\cms\\": ""
+        }
+    },
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://asset-packagist.org"
+        }
+    ]
+}
